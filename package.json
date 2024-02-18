@@ -4,11 +4,22 @@
   "description": "A space dedicated to Three.js, WebGL, and Canvas experiments.",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack serve --open --config webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "alecnelson",
   "license": "ISC",
   "dependencies": {
-    "three": "^0.161.0"
+    "css-loader": "^6.10.0",
+    "fpsmeter": "^0.3.1",
+    "html-loader": "^5.0.0",
+    "three": "^0.161.0",
+    "webpack": "^5.90.2",
+    "webpack-dev-server": "^5.0.2",
+    "webpack-merge": "^5.10.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack-cli": "^5.1.4"
   }
 }
